@@ -8,6 +8,7 @@
     </form>
 	<body>
        <h1>Headlines</h1>
+       <h4>Justin's feed for CNN, FOX, IOL, BBC</h4>
        {% for article in articles %}
            <b><a href="{{article.link}}">{{article.title}}</a></b><br />
            <i>{{article.published}}</i><br />
